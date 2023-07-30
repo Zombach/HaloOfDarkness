@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Документ русской локализации -->
+<!-- Предметы -->
+<items language="ru_RU" version="0.1" count="2">
+	<weapons count="2">
+		<item key="1" description="Этот нож сделан из закаленной стали">Стальной нож</item>
+		<item key="2" description="Настолько ржавый, что не понятно, как он ещё сломался">Ржавый нож</item>
+	</weapons>
+	<others count="1">
+		<item key="1">Веревка</item>
+	</others>
+</items>

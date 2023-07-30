@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Документ русской локализации -->
+<!-- Ресурсы -->
+<resources language="ru_RU" version="0.1" count="1">
+	<!-- Валюта -->
+	<currencies count="1">
+		<item key="1" description="Та ещё блестяшка">Золото</item>
+	</currencies>
+</resources>

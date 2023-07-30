@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Документ русской локализации -->
+<!-- Параметры персонажа -->
+<characters language="ru_RU" version="0.1" count="2">
+	<parameters count="2">
+		<item key="1" description="Сила">Сила</item>
+		<item key="2" description="Удача - отвечает за ...">Удача</item>
+	</parameters>
+	<skills count="1">
+		<item key ="1"></item>
+	</skills>
+	<perks count="1">
+		<item key ="1"></item>
+	</perks>
+</characters>
