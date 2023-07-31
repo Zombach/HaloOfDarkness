@@ -363,3 +363,6 @@ FodyWeavers.xsd
 /HaloOfDarkness/Assets/TextMesh Pro
 /HaloOfDarkness/Library
 /HaloOfDarkness/Temp
+/HaloOfDarkness/.plastic
+/HaloOfDarkness/Assets/Adaptive Performance
+/HaloOfDarkness/Assets/Adaptive Performance/Provider/Samsung Android Provider Loader.asset
