@@ -2,9 +2,15 @@
 
 namespace HaloOfDarkness.Language.Models.Basis
 {
+    /// <summary>
+    /// Расширенная версия конечной ноды, с добавленным описанием
+    /// </summary>
     public class ItemDescriptionModel : ItemModel
     {
-        [XmlAttribute(AttributeName = "description")]
+        /// <summary>
+        /// Описание объекта в ноде
+        /// </summary>
+        [XmlAttribute(AttributeName = LanguageConstants.Description)]
         public string Description { get; set; }
 
         public ItemDescriptionModel() : base()

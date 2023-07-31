@@ -7,31 +7,34 @@ using HaloOfDarkness.Language.Enums;
 
 namespace HaloOfDarkness.Language.Models.Basis
 {
+    /// <summary>
+    /// Базовая модель xml - контейнера
+    /// </summary>
     [Serializable]
     public abstract class BaseModel
     {
         /// <summary>
-        /// Язык
+        /// Текущий язык модели
         /// </summary>
         [XmlIgnore]
         public LanguageEnum Language { get; set; }
 
         /// <summary>
-        /// Атрибут версии
+        /// Атрибут версии документа
         /// </summary>
-        [XmlAttribute(AttributeName = "version")]
+        [XmlAttribute(AttributeName = LanguageConstants.Version)]
         public float Version { get; set; }
 
         /// <summary>
-        /// Количество объектов
+        /// Количество объектов в модели
         /// </summary>
-        [XmlAttribute(AttributeName = "count")]
+        [XmlAttribute(AttributeName = LanguageConstants.Count)]
         public int Count { get; set; }
 
         /// <summary>
-        /// Ресурс для языка
+        /// Ресурс для языка, для записи в Language
         /// </summary>
-        [XmlAttribute(AttributeName = "language")]
+        [XmlAttribute(AttributeName = LanguageConstants.Language)]
         public string LanguageSource
         {
             get => $"{Language}";

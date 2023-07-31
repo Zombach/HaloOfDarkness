@@ -1,12 +1,15 @@
 ﻿using HaloOfDarkness.Language;
 using HaloOfDarkness.Language.Models;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Assets.Scripts.Languages
 {
-    public class Test : MonoBehaviour
+    public class Test
     {
-        private string Path = "Assets\\Scripts\\Resources\\ru-RU.xml";
+        [SerializeField] private Button _btn;
+
         public void T()
         {
             string path = "Assets\\Resources\\ru_RU\\General.xml";
@@ -22,6 +25,8 @@ namespace Assets.Scripts.Languages
             NPCsModel npcs = handler.DeserializeXml<NPCsModel>(path4);
             OthersModel others = handler.DeserializeXml<OthersModel>(path5);
             ResourcesModel resources = handler.DeserializeXml<ResourcesModel>(path6);
+
+            TextMeshProUGUI textMeshPro = _btn.GetComponentInChildren<TextMeshProUGUI>();
         }
     }
 }

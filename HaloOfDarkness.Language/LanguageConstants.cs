@@ -6,6 +6,13 @@
         public const bool Nullable = true;
         public const bool NoNullable = false;
 
+        public const string Language = "language";
+        public const string Version = "version";
+        public const string Key = "key";
+        public const string Count = "count";
+        public const string Item = "item";
+        public const string Description = "description";
+
         #region Language
         public const string LanguageRuRu = "ru_RU";
         public const string LanguageEnUs = "en_US";

@@ -4,14 +4,20 @@ using System.Xml.Serialization;
 namespace HaloOfDarkness.Language.Models.Basis
 {
     /// <summary>
-    /// Базовый объект
+    /// Базовая нода
     /// </summary>
     [Serializable]
     public class ItemModel
     {
-        [XmlAttribute(AttributeName = "key")]
+        /// <summary>
+        /// Ключ для связывания с конечным объектом
+        /// </summary>
+        [XmlAttribute(AttributeName = LanguageConstants.Key)]
         public int Key { get; set; }
 
+        /// <summary>
+        /// Значение в ноде
+        /// </summary>
         [XmlText(DataType = "string", Type = typeof(string))]
         public string Value { get; set; }
 

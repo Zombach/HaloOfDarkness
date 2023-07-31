@@ -3,16 +3,23 @@ using System.Xml.Serialization;
 
 namespace HaloOfDarkness.Language.Models.Basis
 {
+    /// <summary>
+    /// Модель сумки
+    /// </summary>
+    /// <typeparam name="T">Тип конечной ноды</typeparam>
     [Serializable]
     public class BagModel<T>
     {
-        private const string AttributeCount = "count";
-        private const string AttributeItems = "item";
-
-        [XmlAttribute(AttributeName = AttributeCount)]
+        /// <summary>
+        /// Размер элементов в сумке
+        /// </summary>
+        [XmlAttribute(AttributeName = LanguageConstants.Count)]
         public int Count { get; set; }
 
-        [XmlElement(ElementName = AttributeItems)]
+        /// <summary>
+        /// Итоговая нода
+        /// </summary>
+        [XmlElement(ElementName = LanguageConstants.Item)]
         public T[] Items { get; set; }
 
         public BagModel()

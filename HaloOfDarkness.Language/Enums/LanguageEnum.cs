@@ -10,8 +10,8 @@ namespace HaloOfDarkness.Language.Enums
         [XmlEnum(Name = Empty)]
         Unknown = 0,
         [XmlEnum(Name = LanguageRuRu)]
-        Ru = 1,
+        RuRu = 1,
         [XmlEnum(Name = LanguageEnUs)]
-        Eng = 2
+        EnUs = 2
     }
 }
