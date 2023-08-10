@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{3B324FBC-7D6E-BB9E-FECF-0CFA99E9DC37}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaloOfDarknessConsole", "..\HaloOfDarknessConsole\HaloOfDarknessConsole.csproj", "{E0656C45-AEF3-4519-A155-67BFFEC770FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloOfDarkness.Language", "..\HaloOfDarkness.Language\HaloOfDarkness.Language.csproj", "{A657666B-3D60-444B-AB49-E2AFAF32CC7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaloOfDarkness.Language", "..\HaloOfDarkness.Language\HaloOfDarkness.Language.csproj", "{A657666B-3D60-444B-AB49-E2AFAF32CC7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloOfDarkness.Compressor", "..\HaloOfDarkness.Compressor\HaloOfDarkness.Compressor.csproj", "{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{A657666B-3D60-444B-AB49-E2AFAF32CC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A657666B-3D60-444B-AB49-E2AFAF32CC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A657666B-3D60-444B-AB49-E2AFAF32CC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
