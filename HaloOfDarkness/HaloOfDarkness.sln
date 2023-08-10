@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaloOfDarknessConsole", "..
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaloOfDarkness.Language", "..\HaloOfDarkness.Language\HaloOfDarkness.Language.csproj", "{A657666B-3D60-444B-AB49-E2AFAF32CC7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloOfDarkness.Compressor", "..\HaloOfDarkness.Compressor\HaloOfDarkness.Compressor.csproj", "{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaloOfDarkness.Compressor", "..\HaloOfDarkness.Compressor\HaloOfDarkness.Compressor.csproj", "{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloOfDarkness.Contracts", "..\HaloOfDarkness.Contracts\HaloOfDarkness.Contracts.csproj", "{04FAC09C-B78F-405A-BAB7-719DFA90DB21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04FAC09C-B78F-405A-BAB7-719DFA90DB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04FAC09C-B78F-405A-BAB7-719DFA90DB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04FAC09C-B78F-405A-BAB7-719DFA90DB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04FAC09C-B78F-405A-BAB7-719DFA90DB21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
