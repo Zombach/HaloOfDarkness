@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\HaloOfDarkness.Compressor\HaloOfDarkness.Compressor.csproj" />
     <ProjectReference Include="..\HaloOfDarkness.Language\HaloOfDarkness.Language.csproj" />
   </ItemGroup>
 
