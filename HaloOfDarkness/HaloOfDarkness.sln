@@ -7,37 +7,38 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore", "NetCore", "{F71832D0-F1CA-44D0-9D77-2F2D08C60EAE}"
 	ProjectSection(SolutionItems) = preProject
-		Info.md = Info.md
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetStandart", "NetStandart", "{BEEC8956-6C13-4406-969A-7AB1B0E7443E}"
 	ProjectSection(SolutionItems) = preProject
-		Info.md = Info.md
+		..\NetStandart\README.md = ..\NetStandart\README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programs", "Programs", "{64BD7489-C1DF-4991-B86B-2591154CEEE8}"
 	ProjectSection(SolutionItems) = preProject
-		Info.md = Info.md
+		..\Programs\README.md = ..\Programs\README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DialogEditor", "DialogEditor", "{DB413A99-F560-43F4-8DC3-D874474DD5C1}"
 	ProjectSection(SolutionItems) = preProject
-		Info.md = Info.md
+		..\Programs\DialogEditor\README.md = ..\Programs\DialogEditor\README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ItemEditor", "ItemEditor", "{AA93F92F-7CBD-45E0-92F8-34ED29B18DB0}"
 	ProjectSection(SolutionItems) = preProject
-		Info.md = Info.md
+		..\Programs\ItemEditor\README.md = ..\Programs\ItemEditor\README.md
+		..\Programs\README.md = ..\Programs\README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compressor", "Compressor", "{FB441EBB-3530-4ACC-A82A-36E170A96943}"
 	ProjectSection(SolutionItems) = preProject
-		Info.md = Info.md
+		..\Programs\Compressor\README.md = ..\Programs\Compressor\README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cryptographer", "Cryptographer", "{0F9799D3-C5BF-4FAA-BDA7-FD8C1EE3ECDE}"
 	ProjectSection(SolutionItems) = preProject
-		Info.md = Info.md
+		..\Programs\Cryptographer\README.md = ..\Programs\Cryptographer\README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaloOfDarkness.Compressor", "..\NetStandart\HaloOfDarkness.Compressor\HaloOfDarkness.Compressor.csproj", "{F1C56503-2EC0-4F10-8744-181580DE6BCD}"
