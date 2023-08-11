@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaloOfDarkness.Language", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaloOfDarkness.Compressor", "..\HaloOfDarkness.Compressor\HaloOfDarkness.Compressor.csproj", "{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloOfDarkness.Streams", "..\HaloOfDarkness.Streams\HaloOfDarkness.Streams.csproj", "{02CA6C7F-1072-4A9B-B885-489ECE4CD2F2}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloOfDarkness.Resources", "..\HaloOfDarkness.Resources\HaloOfDarkness.Resources.csproj", "{94F97DCF-8E4C-4ABE-99C0-39F4F9D79B46}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloOfDarkness.Cryptographer", "..\HaloOfDarkness.Cryptographer\HaloOfDarkness.Cryptographer.csproj", "{2666114D-0674-4B7A-A6D6-D3ABF5A9ECB4}"
@@ -37,6 +39,10 @@ Global
 		{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02CA6C7F-1072-4A9B-B885-489ECE4CD2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CA6C7F-1072-4A9B-B885-489ECE4CD2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CA6C7F-1072-4A9B-B885-489ECE4CD2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CA6C7F-1072-4A9B-B885-489ECE4CD2F2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{94F97DCF-8E4C-4ABE-99C0-39F4F9D79B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{94F97DCF-8E4C-4ABE-99C0-39F4F9D79B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94F97DCF-8E4C-4ABE-99C0-39F4F9D79B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -48,6 +54,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38F658B4-1436-4859-B8DA-D68BC037C57C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21E13E17-94D6-423E-86A4-44FBB12B17B2}
