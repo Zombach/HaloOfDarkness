@@ -1,11 +1,5 @@
 ﻿#region Language
 /*
-#region Language
-/*
-// See https://aka.ms/new-console-template for more information
-
-#region Language
-/*
 using HaloOfDarkness.Language;
 using HaloOfDarkness.Language.Models;
 
@@ -26,13 +20,6 @@ ResourcesModel resources = handler.DeserializeXml<ResourcesModel>(path6);
 */
 #endregion
 
-#region SerializerJson
-
-
-#endregion
-*/
-#endregion
-
 #region Compressor
 
 using HaloOfDarkness.Compressor;
@@ -41,7 +28,9 @@ CompressorHandler handler = new();
 
 #endregion
 
-*/
+#region SerializerJson
+
+
 #endregion
 
 #region SerializerXml
