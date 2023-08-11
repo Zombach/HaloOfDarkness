@@ -28,7 +28,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ItemEditor", "ItemEditor", "{AA93F92F-7CBD-45E0-92F8-34ED29B18DB0}"
 	ProjectSection(SolutionItems) = preProject
 		..\Programs\ItemEditor\README.md = ..\Programs\ItemEditor\README.md
-		..\Programs\README.md = ..\Programs\README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compressor", "Compressor", "{FB441EBB-3530-4ACC-A82A-36E170A96943}"
