@@ -1,5 +1,7 @@
 ﻿#region Language
 /*
+#region Language
+/*
 // See https://aka.ms/new-console-template for more information
 
 #region Language
@@ -21,6 +23,13 @@ ItemsModel items = handler.DeserializeXml<ItemsModel>(path3);
 NPCsModel npcs = handler.DeserializeXml<NPCsModel>(path4);
 OthersModel others = handler.DeserializeXml<OthersModel>(path5);
 ResourcesModel resources = handler.DeserializeXml<ResourcesModel>(path6);
+*/
+#endregion
+
+#region SerializerJson
+
+
+#endregion
 */
 #endregion
 

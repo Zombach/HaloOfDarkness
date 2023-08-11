@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaloOfDarkness.Language", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaloOfDarkness.Compressor", "..\HaloOfDarkness.Compressor\HaloOfDarkness.Compressor.csproj", "{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloOfDarkness.SerializerJson", "..\HaloOfDarkness.SerializerJson\HaloOfDarkness.SerializerJson.csproj", "{D6278CC9-691E-4984-A111-99305699748D}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloOfDarkness.Contracts", "..\HaloOfDarkness.Contracts\HaloOfDarkness.Contracts.csproj", "{04FAC09C-B78F-405A-BAB7-719DFA90DB21}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaloOfDarkness.SerializerXml", "..\HaloOfDarkness.SerializerXml\HaloOfDarkness.SerializerXml.csproj", "{EB00F136-E7F3-45AA-85A3-B5737459543E}"
@@ -43,6 +45,10 @@ Global
 		{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF0E44B0-23A1-42F7-9F90-5A3F728D1341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6278CC9-691E-4984-A111-99305699748D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6278CC9-691E-4984-A111-99305699748D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6278CC9-691E-4984-A111-99305699748D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6278CC9-691E-4984-A111-99305699748D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{04FAC09C-B78F-405A-BAB7-719DFA90DB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{04FAC09C-B78F-405A-BAB7-719DFA90DB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04FAC09C-B78F-405A-BAB7-719DFA90DB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -66,6 +72,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75F7F84B-27C3-4BD8-A13C-3F4C488951BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38F658B4-1436-4859-B8DA-D68BC037C57C}
