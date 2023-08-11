@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
     <Version>1.1.0</Version>
+    <Configurations>Debug;Release;DebugNetStandart</Configurations>
   </PropertyGroup>
 
   <ItemGroup>
