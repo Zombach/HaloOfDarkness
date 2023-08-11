@@ -56,7 +56,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaloOfDarkness.SerializerXm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaloOfDarkness.Streams", "..\NetStandart\HaloOfDarkness.Streams\HaloOfDarkness.Streams.csproj", "{820749EB-4CB2-4C99-8294-1F5E92B2833C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaloOfDarkness.Console", "..\NetCore\HaloOfDarkness.Console\HaloOfDarkness.Console.csproj", "{9D7DD0D7-AC5E-4804-825D-4D3AEF51331E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console", "..\NetCore\Console\Console.csproj", "{9D7DD0D7-AC5E-4804-825D-4D3AEF51331E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
