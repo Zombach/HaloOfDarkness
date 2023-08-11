@@ -1,4 +1,5 @@
 ﻿#region Language
+/*
 using HaloOfDarkness.Language;
 using HaloOfDarkness.Language.Models;
 
@@ -16,7 +17,12 @@ ItemsModel items = handler.DeserializeXml<ItemsModel>(path3);
 NPCsModel npcs = handler.DeserializeXml<NPCsModel>(path4);
 OthersModel others = handler.DeserializeXml<OthersModel>(path5);
 ResourcesModel resources = handler.DeserializeXml<ResourcesModel>(path6);
+*/
 #endregion
 
+#region SerializerXml
+
+
+#endregion
 
 var stop = "";
