@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info version="0.1">
+	<paths count="8">
+		<path number="1" type="pack">./Data/data.00.pck</path>
+		<path number="2" type="pack">./Data/data.01.pck</path>
+		<path number="3" type="xml">./Lang/ru_RU/Character.xml</path>
+		<path number="4" type="xml">./Lang/ru_RU/General.xml</path>
+		<path number="5" type="xml">./Lang/ru_RU/Items.xml</path>
+		<path number="6" type="xml">./Lang/ru_RU/NPCs.xml</path>
+		<path number="7" type="xml">./Lang/ru_RU/Others.xml</path>
+		<path number="8" type="xml">./Lang/ru_RU/Resources.xml</path>
+	</paths>
+</info>
