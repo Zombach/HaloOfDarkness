@@ -1,5 +1,5 @@
 <html>
 	<body>
-		<h1 align="center">Предмет Эдитор</h1>
+		<h1 align="center">РџСЂРµРґРјРµС‚ Р­РґРёС‚РѕСЂ</h1>
 	</body>
 </html>

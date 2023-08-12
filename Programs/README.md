@@ -1,5 +1,5 @@
 <html>
 	<body>
-		<h1 align="center">Блок программ</h1>
+		<h1 align="center">Р‘Р»РѕРє РїСЂРѕРіСЂР°РјРј</h1>
 	</body>
 </html>
