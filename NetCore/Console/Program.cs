@@ -24,7 +24,7 @@ ResourcesModel resources = handler.DeserializeXml<ResourcesModel>(path6);
 
 using HaloOfDarkness.Compressor;
 
-CompressorHandler handler = new();
+DecompressorHandler handler = new();
 
 #endregion
 
