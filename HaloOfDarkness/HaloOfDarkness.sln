@@ -37,7 +37,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decompressor", "Decompresso
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Converter", "Converter", "{0F9799D3-C5BF-4FAA-BDA7-FD8C1EE3ECDE}"
 	ProjectSection(SolutionItems) = preProject
-		..\Programs\Cryptographer\README.md = ..\Programs\Cryptographer\README.md
+		..\Programs\Converter\README.md = ..\Programs\Converter\README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaloOfDarkness.Decompressor", "..\NetStandart\HaloOfDarkness.Decompressor\HaloOfDarkness.Decompressor.csproj", "{F1C56503-2EC0-4F10-8744-181580DE6BCD}"
