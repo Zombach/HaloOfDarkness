@@ -1,6 +1,6 @@
-﻿namespace HaloOfDarkness.Cryptographer
+﻿namespace HaloOfDarkness.Converter
 {
-    public class CryptographerHandler
+    public class ConverterHandler
     {
         public void Encryption() {}
         public void Decryption() {}
