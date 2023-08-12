@@ -4,7 +4,7 @@
 		<sector>
 			<p>Данный каталог предназначен для библиотек написанных на .Net Standart</p>
 			<p>На данный момент содержит в себе:</p>
-			<p>1. Decompressor</p>
+			<p>1. Decompressor - библиотека предназначенная для работы с запакованными данными</p>
 			<p>2. Contracts</p>
 			<p>3. Cryptographer</p>
 			<p>4. Language</p>
