@@ -22,7 +22,7 @@ ResourcesModel resources = handler.DeserializeXml<ResourcesModel>(path6);
 
 #region Compressor
 
-using HaloOfDarkness.Compressor;
+using HaloOfDarkness.Decompressor;
 
 DecompressorHandler handler = new();
 
