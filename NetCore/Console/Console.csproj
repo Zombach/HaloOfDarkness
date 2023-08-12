@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\NetStandart\HaloOfDarkness.Contracts\HaloOfDarkness.Contracts.csproj" />
-    <ProjectReference Include="..\..\NetStandart\HaloOfDarkness.Cryptographer\HaloOfDarkness.Cryptographer.csproj" />
+    <ProjectReference Include="..\..\NetStandart\HaloOfDarkness.Converter\HaloOfDarkness.Converter.csproj" />
     <ProjectReference Include="..\..\NetStandart\HaloOfDarkness.Decompressor\HaloOfDarkness.Decompressor.csproj" />
     <ProjectReference Include="..\..\NetStandart\HaloOfDarkness.Language\HaloOfDarkness.Language.csproj" />
     <ProjectReference Include="..\..\NetStandart\HaloOfDarkness.Resources\HaloOfDarkness.Resources.csproj" />

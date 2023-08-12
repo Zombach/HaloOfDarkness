@@ -6,7 +6,7 @@
 			<p>На данный момент содержит в себе:</p>
 			<p>1. Decompressor - библиотека предназначенная для работы с запакованными данными</p>
 			<p>2. Contracts</p>
-			<p>3. Cryptographer</p>
+			<p>3. Converter - Преобразователь</p>
 			<p>4. Language</p>
 			<p>5. Resources</p>
 			<p>6. SerializerJson</p>
