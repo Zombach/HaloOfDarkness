@@ -30,9 +30,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ItemEditor", "ItemEditor", 
 		..\Programs\ItemEditor\README.md = ..\Programs\ItemEditor\README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decompressor", "Decompressor", "{FB441EBB-3530-4ACC-A82A-36E170A96943}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compressor", "Compressor", "{FB441EBB-3530-4ACC-A82A-36E170A96943}"
 	ProjectSection(SolutionItems) = preProject
-		..\Programs\Decompressor\README.md = ..\Programs\Decompressor\README.md
+		..\Programs\Compressor\README.md = ..\Programs\Compressor\README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Converter", "Converter", "{0F9799D3-C5BF-4FAA-BDA7-FD8C1EE3ECDE}"
