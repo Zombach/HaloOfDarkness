@@ -1,4 +1,4 @@
-﻿namespace MobileRpg;
+﻿namespace HaloOfDarkness;
 
 public partial class App : Application
 {

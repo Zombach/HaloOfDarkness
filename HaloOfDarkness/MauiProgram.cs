@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace MobileRpg;
+namespace HaloOfDarkness;
 
 public static class MauiProgram
 {

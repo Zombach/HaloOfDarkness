@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace MobileRpg;
+namespace HaloOfDarkness;
 
 [Application]
 public class MainApplication : MauiApplication

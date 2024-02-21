@@ -1,4 +1,4 @@
-# MobileRpg - 2d игра.
+# HaloOfDarkness - 2d игра.
 
 ## Первый этап, делаем на MAUI
 ### Вид

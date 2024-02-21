@@ -1,8 +1,8 @@
 ﻿<maui:MauiWinUIApplication
-    x:Class="MobileRpg.WinUI.App"
+    x:Class="HaloOfDarkness.WinUI.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:maui="using:Microsoft.Maui"
-    xmlns:local="using:MobileRpg.WinUI">
+    xmlns:local="using:HaloOfDarkness.WinUI">
 
 </maui:MauiWinUIApplication>
