@@ -1,9 +1,9 @@
 ﻿using SQLite;
 
-namespace HaloOfDarkness.Database;
+namespace HaloOfDarkness.Database.Contexts.Basis;
 
 // All the code in this file is included in all platforms.
-public abstract class DbContext(DatabaseTypeEnum databaseType) : IAsyncDisposable
+public abstract class BaseDbContext(DatabaseTypeEnum databaseType) : IAsyncDisposable
 {
     protected readonly SQLiteAsyncConnection Db = new(Constants.DatabasePath(databaseType));
 
