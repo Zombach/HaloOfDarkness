@@ -3,12 +3,14 @@
     x:Class="HaloOfDarkness.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:HaloOfDarkness"
+    xmlns:ui="clr-namespace:Ui"
+    xmlns:haloOfDarkness="clr-namespace:HaloOfDarkness"
     Shell.FlyoutBehavior="Disabled"
     Title="HaloOfDarkness">
 
     <ShellContent
-        ContentTemplate="{DataTemplate local:MainPage}"
+        Title="Home"
+        ContentTemplate="{DataTemplate haloOfDarkness:MainPage}"
         Route="MainPage" />
 
 </Shell>
