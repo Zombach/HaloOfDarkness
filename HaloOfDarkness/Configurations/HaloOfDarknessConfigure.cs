@@ -1,6 +1,8 @@
 ﻿using System.Reflection;
+using Core.Common.Behaviors;
 using Domain.Configurations;
 using Infrastructure.Configurations;
+using MediatR;
 
 namespace HaloOfDarkness.Configurations;
 
@@ -19,7 +21,7 @@ public static class HaloOfDarknessConfigure
                 typeof(CoreConfigure).Assembly
             );
 
-            //cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(UnhandledExceptionBehaviour<,>));
+            cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(UnhandledExceptionBehaviour<,>));
         });
     }
 
