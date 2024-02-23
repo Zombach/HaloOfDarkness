@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Content.PM;
 
-namespace HaloOfDarkness;
+namespace HaloOfDarkness.Platforms.Android;
 
 [Activity
 (

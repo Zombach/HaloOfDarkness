@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace HaloOfDarkness;
+namespace HaloOfDarkness.Platforms.Android;
 
 [Application]
 public class MainApplication(IntPtr handle, JniHandleOwnership ownership)

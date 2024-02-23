@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using Core.Common.Behaviors;
+using Core.Configurations;
 using Domain.Configurations;
 using Infrastructure.Configurations;
 using MediatR;

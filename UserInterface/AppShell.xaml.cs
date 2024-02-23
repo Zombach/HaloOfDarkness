@@ -1,4 +1,4 @@
-﻿namespace HaloOfDarkness;
+﻿namespace UserInterface;
 
 public partial class AppShell : Shell
 {

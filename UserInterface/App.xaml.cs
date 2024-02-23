@@ -1,4 +1,4 @@
-﻿namespace HaloOfDarkness;
+﻿namespace UserInterface;
 
 public partial class App : Application
 {

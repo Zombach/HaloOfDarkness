@@ -1,4 +1,5 @@
-﻿using Domain.Configurations;
+﻿using Core.Configurations;
+using Domain.Configurations;
 using Infrastructure.Configurations;
 using Microsoft.Extensions.Configuration;
 
