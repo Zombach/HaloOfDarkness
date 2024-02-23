@@ -24,6 +24,4 @@ public static class HaloOfDarknessConfigure
             cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(UnhandledExceptionBehaviour<,>));
         });
     }
-
-
 }

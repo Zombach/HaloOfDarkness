@@ -19,6 +19,7 @@ public static class MauiProgram
                 });
 
             builder.Services.AddHaloOfDarknessService();
+            builder.Services.AddServices(builder.Configuration);
 
 #if DEBUG
             builder.Logging.AddDebug();
