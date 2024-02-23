@@ -26,13 +26,11 @@
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<DefaultLanguage>ru</DefaultLanguage>
 	</PropertyGroup>
-
-	<ItemGroup>
-	  <None Remove="Platforms\Android\Resources\values\colors.xml" />
-	</ItemGroup>
-
+	
 	<ItemGroup>
 		<PackageReference Include="MediatR" Version="12.2.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.0-preview.1.24080.9" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0-preview.1.24080.9" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0-preview.1.24080.9" />
@@ -68,5 +66,4 @@
 	    <SubType>Designer</SubType>
 	  </None>
 	</ItemGroup>
-
 </Project>
