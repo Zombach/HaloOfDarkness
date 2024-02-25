@@ -1,7 +1,4 @@
 ﻿using HaloOfDarkness.Configurations;
-using HaloOfDarkness.Configurations.Logger;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Logging.Configuration;
 using UserInterface;
 
 namespace HaloOfDarkness;
@@ -21,21 +18,15 @@ public static class MauiProgram
             builder.Configuration.AddJsonConfigure("appsettings.production.json");
 #endif
 
-
-            var logger = LoggerFactory.Create(x => x.Services.AddLogging(l => l.AddDebug().AddJsonConsole().AddFile("log.txt")))
-                .CreateLogger(typeof(App));
-
-            logger.LogInformation("info");
-
             builder.UseMauiApp<App>()
-            .ConfigureFonts
-            (
-                fonts =>
-                {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                }
-            );
+                .ConfigureFonts
+                (
+                    fonts =>
+                    {
+                        fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                        fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    }
+                );
 
             builder.Services.AddServices(builder.Configuration);
 
@@ -43,7 +34,7 @@ public static class MauiProgram
         }
         catch (Exception e)
         {
-            //Logger<>.Error("{@message}", e.Message);
+            Serilog.Log.Error(e, e.Message);
             throw;
         }
     }
