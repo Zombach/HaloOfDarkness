@@ -75,9 +75,19 @@
 	<ItemGroup>
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 		<Content Include="Resources\Raw\appsettings.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>
 		<Content Include="Resources\Raw\appsettings.*.json">
 			<DependentUpon>Resources\Raw\appsettings.json</DependentUpon>
 		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Update="Resources\Raw\appsettings.development.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Update="Resources\Raw\appsettings.production.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
 	</ItemGroup>
 </Project>

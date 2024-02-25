@@ -9,6 +9,7 @@ public static class ServicesConfigure
 {
     public static void AddServices(this IServiceCollection services, IConfiguration configuration)
     {
+        services.AddHaloOfDarknessService();
         services.AddInfrastructureService(configuration);
         services.AddDomainService(configuration);
         services.AddCoreServices(configuration);
