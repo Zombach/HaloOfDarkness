@@ -1,7 +1,6 @@
 ﻿using HaloOfDarkness.Configurations;
 using HaloOfDarkness.Configurations.Logger;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Logging.Configuration;
 using UserInterface;
 
 namespace HaloOfDarkness;
@@ -10,6 +9,7 @@ public static class MauiProgram
 {
     public static MauiApp CreateMauiApp()
     {
+        ILogger? logger = default;
         try
         {
             var builder = MauiApp.CreateBuilder();
@@ -21,9 +21,17 @@ public static class MauiProgram
             builder.Configuration.AddJsonConfigure("appsettings.production.json");
 #endif
 
-
-            var logger = LoggerFactory.Create(x => x.Services.AddLogging(l => l.AddDebug().AddJsonConsole().AddFile("log.txt")))
-                .CreateLogger(typeof(App));
+            logger = LoggerFactory.Create
+            (
+                configure => configure.Services
+                    .AddLogging
+                    (
+                        loggerBuilder => loggerBuilder
+                            .AddDebug()
+                            .AddJsonConsole()
+                            .AddFile("log.txt")
+                    )
+            ).CreateLogger(typeof(App));
 
             logger.LogInformation("info");
 
@@ -43,7 +51,7 @@ public static class MauiProgram
         }
         catch (Exception e)
         {
-            //Logger<>.Error("{@message}", e.Message);
+            logger?.LogError("{@message}", e.Message);
             throw;
         }
     }
