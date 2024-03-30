@@ -1,14 +1,13 @@
 using System.Diagnostics;
-using UserInterface.ViewModel;
 
 namespace UserInterface.Pages;
 
 public partial class SettingsPage : ContentPage
 {
-    public SettingsPage(SettingsViewModel vm)
+    public SettingsPage()
     {
         InitializeComponent();
-        BindingContext = vm;
+
     }
 
     void OnLanguageRadioButtonCheckedChanged(object sender, CheckedChangedEventArgs e)
