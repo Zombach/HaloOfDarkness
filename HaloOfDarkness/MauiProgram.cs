@@ -2,6 +2,7 @@
 using HaloOfDarkness.Configurations.Logger;
 using Microsoft.Extensions.Logging;
 using UserInterface;
+using UserInterface.Pages;
 
 namespace HaloOfDarkness;
 
@@ -44,6 +45,9 @@ public static class MauiProgram
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 }
             );
+
+            builder.Services.AddTransient<MainPage>();
+            builder.Services.AddTransient<SettingsPage>();
 
             builder.Services.AddServices(builder.Configuration);
 
