@@ -1,17 +1,13 @@
-﻿namespace UserInterface;
+﻿using UserInterface.Pages;
+
+namespace UserInterface;
 
 public partial class MainPage : ContentPage
 {
-    private int _count = 0;
-
     public MainPage() => InitializeComponent();
 
-    private void OnCounterClicked(object sender, EventArgs e)
+    async void GoToSettingsPage(object sender, EventArgs e)
     {
-        _count++;
-
-        CounterBtn.Text = _count == 1 ? $"Clicked {_count} time" : $"Clicked {_count} times";
-
-        SemanticScreenReader.Announce(CounterBtn.Text);
+        await Shell.Current.GoToAsync(nameof(SettingsPage));
     }
 }
