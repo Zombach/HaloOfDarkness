@@ -48,6 +48,7 @@ public static class MauiProgram
 
             builder.Services.AddTransient<MainPage>();
             builder.Services.AddTransient<SettingsPage>();
+            builder.Services.AddTransient<GameBoardPage>();
 
             builder.Services.AddServices(builder.Configuration);
 

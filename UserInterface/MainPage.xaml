@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UserInterface.MainPage"
-             Padding="30, 0">
+             Padding="30">
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="About"/>
@@ -17,12 +17,13 @@
 
         <Button x:Name="StartButton"
                 Text="Start"
-                HorizontalOptions="Fill"/>
+                HorizontalOptions="Fill"
+                Clicked="GoToGameBoardPage"/>
 
         <Button x:Name="SettingsButton"
                 Text="Settings"
                 HorizontalOptions="Fill"
                 Clicked="GoToSettingsPage"/>
-
+        
     </VerticalStackLayout>
 </ContentPage>
