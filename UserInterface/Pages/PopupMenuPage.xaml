@@ -3,26 +3,29 @@
            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
            xmlns:mct="clr-namespace:CommunityToolkit.Maui.Views;assembly=CommunityToolkit.Maui"
            x:Class="UserInterface.Pages.PopupMenuPage">
-    
-    <VerticalStackLayout Margin="10"
+
+    <VerticalStackLayout VerticalOptions="Center" 
+                         Margin="10"
                          Padding="10"
                          Spacing="10">
-        <Label 
-            Text="Menu"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Label Text="Menu"
+               HorizontalOptions="Center" />
+        
+        <VerticalStackLayout VerticalOptions="Center" 
+                             Spacing="10">
+            
+            <Button Text="Continue"
+                    HorizontalOptions="Fill"
+                    Clicked="GoToContinue" />
 
-        <Button Text="Continue"
-                HorizontalOptions="Fill"
-                Clicked="GoToContinue" />
+            <Button Text="Settings"
+                    HorizontalOptions="Fill"
+                    Clicked="GoToSettingsPage" />
 
-        <Button Text="Settings"
-                HorizontalOptions="Fill"
-                Clicked="GoToSettingsPage" />
-
-        <Button Text="MainPage"
-                HorizontalOptions="Fill"
-                Clicked="GoToMainPage" />
+            <Button Text="MainPage"
+                    HorizontalOptions="Fill"
+                    Clicked="GoToMainPage" />
+        </VerticalStackLayout>
 
     </VerticalStackLayout>
 </mct:Popup>
