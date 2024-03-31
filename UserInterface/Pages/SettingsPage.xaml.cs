@@ -7,7 +7,6 @@ public partial class SettingsPage : ContentPage
     public SettingsPage()
     {
         InitializeComponent();
-
     }
 
     void OnLanguageRadioButtonCheckedChanged(object sender, CheckedChangedEventArgs e)
@@ -42,7 +41,7 @@ public partial class SettingsPage : ContentPage
 
     async void CloseApplication(object sender, EventArgs e)
     {
-        bool answer = await DisplayAlert("Question?", "Would you like to play a game", "Yes", "No");
+        bool answer = await DisplayAlert("Question?", "Are you sure you want to quit the game?", "Yes", "No");
         Debug.WriteLine("Answer: " + answer);
         if (answer)
         {

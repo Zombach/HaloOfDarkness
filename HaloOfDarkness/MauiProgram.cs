@@ -1,4 +1,5 @@
-﻿using HaloOfDarkness.Configurations;
+﻿using CommunityToolkit.Maui;
+using HaloOfDarkness.Configurations;
 using HaloOfDarkness.Configurations.Logger;
 using Microsoft.Extensions.Logging;
 using UserInterface;
@@ -36,19 +37,22 @@ public static class MauiProgram
 
             logger.LogInformation("info");
 
-            builder.UseMauiApp<App>()
-            .ConfigureFonts
-            (
-                fonts =>
-                {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                }
-            );
+            builder
+                .UseMauiApp<App>()
+                .UseMauiCommunityToolkit()
+                .ConfigureFonts
+                (
+                    fonts =>
+                    {
+                        fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                        fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    }
+                );
 
             builder.Services.AddTransient<MainPage>();
             builder.Services.AddTransient<SettingsPage>();
             builder.Services.AddTransient<GameBoardPage>();
+            builder.Services.AddTransient<PopupMenuPage>();
 
             builder.Services.AddServices(builder.Configuration);
 
