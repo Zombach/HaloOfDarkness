@@ -41,8 +41,8 @@ public partial class SettingsPage : ContentPage
 
     async void CloseApplication(object sender, EventArgs e)
     {
-        bool answer = await DisplayAlert("Question?", "Are you sure you want to quit the game?", "Yes", "No");
-        Debug.WriteLine("Answer: " + answer);
+        bool answer = await DisplayAlert("Are you sure you want to quit the game?", "", "Yes", "No");
+        
         if (answer)
         {
             App.Current.Quit();

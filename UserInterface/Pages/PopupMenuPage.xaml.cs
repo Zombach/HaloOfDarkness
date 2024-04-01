@@ -24,8 +24,8 @@ public partial class PopupMenuPage : Popup
 
     async void GoToMainPage(object sender, EventArgs e)
     {
-        bool answer = await Shell.Current.DisplayAlert("Question?", "The game will end when. Are you sure?", "Yes", "No");
-        Debug.WriteLine("Answer: " + answer);
+        bool answer = await Shell.Current.DisplayAlert("The game will end. Are you sure?", "", "Yes", "No");
+        
         if (answer)
         {
             await CloseAsync();
