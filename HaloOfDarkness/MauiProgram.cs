@@ -1,3 +1,4 @@
+using CommunityToolkit.Maui;
 using HaloOfDarkness.Configurations;
 using HaloOfDarkness.Configurations.Logger;
 using Microsoft.Extensions.Logging;
@@ -36,7 +37,10 @@ public static class MauiProgram
 
             logger.LogInformation("info");
 
-            builder.UseMauiApp<App>()
+            builder
+                .UseMauiApp<App>()
+                .UseMauiCommunityToolkit()
+
                 .ConfigureFonts
                 (
                     fonts =>
@@ -48,6 +52,7 @@ public static class MauiProgram
 
             builder.Services.AddTransient<MainPage>();
             builder.Services.AddTransient<SettingsPage>();
+            builder.Services.AddTransient<GameBoardPage>();
 
             builder.Services.AddServices(builder.Configuration);
 
