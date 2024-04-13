@@ -1,4 +1,4 @@
-﻿using HaloOfDarkness.Configurations;
+using HaloOfDarkness.Configurations;
 using HaloOfDarkness.Configurations.Logger;
 using Microsoft.Extensions.Logging;
 using UserInterface;
@@ -37,14 +37,14 @@ public static class MauiProgram
             logger.LogInformation("info");
 
             builder.UseMauiApp<App>()
-            .ConfigureFonts
-            (
-                fonts =>
-                {
-                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-                }
-            );
+                .ConfigureFonts
+                (
+                    fonts =>
+                    {
+                        fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                        fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    }
+                );
 
             builder.Services.AddTransient<MainPage>();
             builder.Services.AddTransient<SettingsPage>();
@@ -55,7 +55,7 @@ public static class MauiProgram
         }
         catch (Exception e)
         {
-            logger?.LogError("{@message}", e.Message);
+            Serilog.Log.Error(e, e.Message);
             throw;
         }
     }
