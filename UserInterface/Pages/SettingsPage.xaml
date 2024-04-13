@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UserInterface.Pages.SettingsPage"
+             Title="SettingsPage"
+             Padding="30, 0">
+
+    <VerticalStackLayout VerticalOptions="Center"
+                         Spacing="50">
+        <HorizontalStackLayout HorizontalOptions="Center"
+                               Spacing="100">
+            <StackLayout>
+                <Label HorizontalOptions="Center" 
+                       Text="What's your favorite language?" />
+                <HorizontalStackLayout>
+                    <RadioButton Content="English"
+                                 IsChecked="True"
+                                 CheckedChanged="OnLanguageRadioButtonCheckedChanged" />
+                    <RadioButton Content="Русский"
+                                 CheckedChanged="OnLanguageRadioButtonCheckedChanged" />
+                    <RadioButton Content="Español"
+                                 CheckedChanged="OnLanguageRadioButtonCheckedChanged" />                    
+                    <RadioButton Content="中文"
+                                 CheckedChanged="OnLanguageRadioButtonCheckedChanged" />                    
+                </HorizontalStackLayout>
+
+                <Label x:Name="LanguageStateLabel"
+                       HorizontalOptions="Center" />
+            </StackLayout>
+
+            <VerticalStackLayout>
+                <VerticalStackLayout>
+                    <Label HorizontalOptions="Center"
+                           Text="Sound" />
+                    <HorizontalStackLayout>
+                        <Switch x:Name="SwitchButton"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                Toggled="OnSoundSwitchButtonToggled"
+                                IsToggled="False"
+                                OnColor="Gray"
+                                ThumbColor="PaleVioletRed" />
+                        <Label x:Name="SoundStateLabel"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" />
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+
+                <HorizontalStackLayout Spacing="10">
+                    <Label Text="notifications"
+                           VerticalOptions="Center" />
+                    <CheckBox Grid.Column="1"
+                              CheckedChanged="OnNotificationsCheckBoxChanged"
+                              VerticalOptions="Center" />
+                    <Label x:Name="NotificationsStateLabel"
+                           VerticalOptions="Center" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </HorizontalStackLayout>
+
+        <VerticalStackLayout>
+            <Slider Maximum="100"
+                    WidthRequest="300"
+                    ValueChanged="OnSliderValueChanged" />
+            <Label x:Name="displayLabel"
+                   Text="(uninitialized)"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+        </VerticalStackLayout>
+
+
+        <Button Text="Exit" 
+                Clicked="CloseApplication" />
+    </VerticalStackLayout>
+</ContentPage>
